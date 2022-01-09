@@ -5,7 +5,6 @@
 #include <iostream>
 #include <algorithm>
 #include <string>
-#include <windows.h>
 #include <olectl.h>
 
 using namespace std;
