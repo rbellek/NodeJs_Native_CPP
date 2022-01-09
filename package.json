@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_cpp",
+  "version": "0.0.1",
+  "description": "Sample app",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "compile": "cd native_module && cmake-js compile && cp build\\Release\\native.node ..\\native.node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:rbellek/NodeJs_Native_CPP.gitgit "
+  },
+  "author": "Ramazan Bellek",
+  "license": "MIT",
+  "dependencies": {
+    "node-addon-api": "^4.1.0"
+  },
+  "devDependencies": {
+    "cmake-js": "^6.2.1"
+  }
+}

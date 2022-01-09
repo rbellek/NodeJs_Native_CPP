@@ -1,0 +1,4 @@
+node_modules
+native_module/build
+package-lock.json
+.vscode
