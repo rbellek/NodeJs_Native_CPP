@@ -10,6 +10,7 @@
 #include <stddef.h>
 #include <stdint.h>
 
+
 uint32_t crc32(const unsigned char *s,size_t n) {
 	uint32_t crc=0xFFFFFFFF;
 	

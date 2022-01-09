@@ -5,7 +5,10 @@
 #include <iostream>
 #include <algorithm>
 #include <string>
+
+#ifdef _WIN32
 #include <olectl.h>
+#endif
 
 using namespace std;
 namespace ideCAD
