@@ -1,5 +1,6 @@
-# NodeJs_Native_CPP
-Sample project for NodeJS native c++ module compilation.
+# Native C++ Module Support for NodeJs Apps
+
+Sample project for NodeJS native c++ module compilation using cmake and node-addon-api.
 
 # Dependencies
 - NodeJS
